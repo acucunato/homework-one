@@ -4,15 +4,64 @@ body {
     color: #777777;
 }
 
-header
-h1 {
+header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: white;
+    padding: 14px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+#alyssa {
+    font-size: 25px;
+    float: left;
+    font-weight: bold;
+
+}
+
+.topnav {
+    border-bottom: .01em solid #cccccc;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+
+
+}
+
+.container-bio {
+   float: center;
+}
+
+#bio {
+    width: 850px;
+    height: 400px;
+    margin: 10px 30px 20px 50px;
+    padding: 25px 10px 30px 20px;
+    background-color: white;
+    border-width: .01em;
+    border-style: solid;
+    border-color:#dddddd;
+}
+
+p {
+    padding: 10px;
+    max-width: 960px;
+    display: inline;
+    line-height: 2;
+}
+
+
+#selfie {
+    float:left;
+    padding: 20px;
 }
 
 h2 {
-    color: #4aaaa5;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -31,7 +80,32 @@ h2 {
     float: right;
   }
 
-.topnav {
-        background-color: #ffffff;
-        overflow: hidden;
+a {
+    color:#777777;
+   }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url(/Users/alyssacucunato/code/homework-one/assets/images/so-white.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+  }
+  
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+
+  .footer {
+    height: 50px;
+    background-color: #777777;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
   }
