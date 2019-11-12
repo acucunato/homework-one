@@ -2,13 +2,13 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    float: center;
 }
 
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: white;
-    padding: 14px;
 }
 
 h1 {
@@ -20,25 +20,27 @@ h1 {
     font-size: 25px;
     float: left;
     font-weight: bold;
+    padding: 16px;
 
 }
 
 .topnav {
     border-bottom: .01em solid #cccccc;
     margin: 0 auto;
-    padding: 50px;
+    padding: 30px;
     background-color: white;
-
-
+    bottom: 0;
+    overflow: auto;
 }
 
 .container-bio {
-   float: center;
+    display: inline;
+
 }
 
 #bio {
-    width: 850px;
-    height: 400px;
+    width: 750px;
+    height: auto;
     margin: 10px 30px 20px 50px;
     padding: 25px 10px 30px 20px;
     background-color: white;
@@ -49,11 +51,9 @@ h1 {
 
 p {
     padding: 10px;
-    max-width: 960px;
     display: inline;
     line-height: 2;
 }
-
 
 #selfie {
     float:left;
@@ -78,6 +78,7 @@ h2 {
 
 .topnav-right {
     float: right;
+    bottom: 0;
   }
 
 a {
@@ -87,7 +88,7 @@ a {
 html, body {
     height: 100%;
     margin: 0;
-    background-image: url(/Users/alyssacucunato/code/homework-one/assets/images/so-white.png);
+    background-image: url(/Users/alyssacucunato/code/homework-one/assets/images/squares.png);
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
