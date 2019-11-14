@@ -8,56 +8,77 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<div class="topnav">
-
-        <header id="alyssa">Alyssa Cucunato</header>
-    
-            <div class="topnav-right">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>    
-    
+<!--header container-->
+<div class="header">
+        <!--inner header-->
+        <div class="inner_header">
+            <!--name container-->
+            <div class="name_container">
+              <h1>Alyssa Cucunato</h1>
             </div>
+    
+            <!--top nav right-->
+            <ul class="topnav-right">
+                <a href="index.html"><li>About</li></a>
+                <a href="portfolio.html"><li><span>Portfolio</span></li></a>
+                <a href="contact.html"><li>Contact</li></a>
+             </div>
+        </div>
     </div>
     
     <br><br><br>
 
+    <!--header-->
 <body>
-    <section id="bio">
-     <h1>Contact</h1>
-    <section class="name">
-        <form action="/example.html" method="POST">
+ <div class="container-bio">
+    <div class="bio">
+         <div class="container-header">
+            <h1>Contact</h1>
+         </div>
+
+<!--forms link to index.html-->
+<div class="contact-info">
+<p>
+    <div class="name">
+        <form action="/index.html" method="POST">
           Name
           <br>
         <input type="text" name="first and last name">
      </form>
-    </section>
+    </div>
 
     <br>
 
-    <section class="email">
-         <form action="/example.html" method="POST">
+    <div class="email">
+         <form action="index.html" method="POST">
              Email
              <br>
           <input type="text" name="email">
          </form>
-     </section>
+    </div>
 
      <br>
 
-     <section class="message">
-         <form action="/example.html" method="POST">
+     <div class="message">
+         <form action="index.html" method="POST">
           Message
           <br>
           <textarea id="message" name="message" rows="10" cols="30">
           </textarea>
          </form>
-     </section>
+        </div>
 
      <br>
 
      <button class="button" type="button">Submit</button>
-    </section>
+     </p>
+
+     </div>
+  </div>
+</div>
+
+
+<footer id="footer"> copyright © </footer>
 
 </body>
 </html>
