@@ -228,7 +228,7 @@ h3 {
 /* footer */
 
 #footer {
-    position: sticky;
+    position: relative;
     font-size: 12px;
     margin-top: 125px;
     width: 100%;
