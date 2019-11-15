@@ -227,15 +227,25 @@ h3 {
 
 /* footer */
 
-#footer {
-    position: relative;
-    font-size: 12px;
-    margin-top: 125px;
-    width: 100%;
-    clear: both;
-    text-align: center;
-    padding: 20px;
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+footer {
+    margin-top: 200px;
     background-color: #777777;
     color: white;
     border-top: 8px solid #4aaaa5;
+    text-align: center;
+    top: 10px;
+}
+
+.wrapper::after {
+    content: "";
+    display: block;
+}
+
+.wrapper::after, footer {
+    height: 80px;
 }
